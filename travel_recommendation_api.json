@@ -6,12 +6,12 @@
             "cities": [
                 {
                     "name": "Sydney, Australia",
-                    "imageUrl": "http://localhost:8080/assets/images/cities/sydney.jpeg",
+                    "imageUrl": "https://mustaphahammouny.github.io/travelRecommendation/assets/images/cities/sydney.jpeg",
                     "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
                 },
                 {
                     "name": "Melbourne, Australia",
-                    "imageUrl": "http://localhost:8080/assets/images/cities/melbourne.jpeg",
+                    "imageUrl": "https://mustaphahammouny.github.io/travelRecommendation/assets/images/cities/melbourne.jpeg",
                     "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
                 }
             ]
@@ -22,12 +22,12 @@
             "cities": [
                 {
                     "name": "Tokyo, Japan",
-                    "imageUrl": "http://localhost:8080/assets/images/cities/tokyo.jpeg",
+                    "imageUrl": "https://mustaphahammouny.github.io/travelRecommendation/assets/images/cities/tokyo.jpeg",
                     "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
                 },
                 {
                     "name": "Kyoto, Japan",
-                    "imageUrl": "http://localhost:8080/assets/images/cities/kyoto.jpeg",
+                    "imageUrl": "https://mustaphahammouny.github.io/travelRecommendation/assets/images/cities/kyoto.jpeg",
                     "description": "Known for its historic temples, gardens, and traditional tea houses."
                 }
             ]
@@ -38,12 +38,12 @@
             "cities": [
                 {
                     "name": "Rio de Janeiro, Brazil",
-                    "imageUrl": "http://localhost:8080/assets/images/cities/rio.jpeg",
+                    "imageUrl": "https://mustaphahammouny.github.io/travelRecommendation/assets/images/cities/rio.jpeg",
                     "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
                 },
                 {
                     "name": "São Paulo, Brazil",
-                    "imageUrl": "http://localhost:8080/assets/images/cities/sao-paulo.jpeg",
+                    "imageUrl": "https://mustaphahammouny.github.io/travelRecommendation/assets/images/cities/sao-paulo.jpeg",
                     "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
                 }
             ]
@@ -53,13 +53,13 @@
         {
             "id": 1,
             "name": "Angkor Wat, Cambodia",
-            "imageUrl": "http://localhost:8080/assets/images/cities/angkor-wat.jpeg",
+            "imageUrl": "https://mustaphahammouny.github.io/travelRecommendation/assets/images/cities/angkor-wat.jpeg",
             "description": "A UNESCO World Heritage site and the largest religious monument in the world."
         },
         {
             "id": 2,
             "name": "Taj Mahal, India",
-            "imageUrl": "http://localhost:8080/assets/images/cities/taj-mahal.jpeg",
+            "imageUrl": "https://mustaphahammouny.github.io/travelRecommendation/assets/images/cities/taj-mahal.jpeg",
             "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
         }
     ],
@@ -67,13 +67,13 @@
         {
             "id": 1,
             "name": "Bora Bora, French Polynesia",
-            "imageUrl": "http://localhost:8080/assets/images/cities/bora-bora.jpeg",
+            "imageUrl": "https://mustaphahammouny.github.io/travelRecommendation/assets/images/cities/bora-bora.jpeg",
             "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
         },
         {
             "id": 2,
             "name": "Copacabana Beach, Brazil",
-            "imageUrl": "http://localhost:8080/assets/images/cities/copacabana.jpeg",
+            "imageUrl": "https://mustaphahammouny.github.io/travelRecommendation/assets/images/cities/copacabana.jpeg",
             "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
         }
     ]
