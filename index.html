@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Travel Recommendation</title>
+
+        <link
+            href="https://getbootstrap.com/docs/5.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            rel="stylesheet"
+        />
+
+        <link href="./assets/css/style.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <header>
+            <!-- Fixed navbar -->
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/"> Travel Recommendation </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                        aria-controls="navbarCollapse"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="/"
+                                >
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about_us.html">
+                                    About us
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact_us.html">
+                                    Contact us
+                                </a>
+                            </li>
+                        </ul>
+                        <form class="d-flex ms-auto" role="search">
+                            <input
+                                class="form-control me-2"
+                                type="search"
+                                id="search"
+                                placeholder="Search"
+                                aria-label="Search"
+                            />
+                            <button
+                                id="btn-search"
+                                class="btn btn-secondary me-2"
+                                type="button"
+                            >
+                                Search
+                            </button>
+                            <button
+                                id="btn-clear"
+                                class="btn btn-secondary"
+                                type="button"
+                            >
+                                Clear
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="social-media">
+            <div class="d-flex flex-column align-items-center">
+                <a href="#" class="text-white mb-3">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="#" class="text-white mb-3">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="#" class="text-white mb-3">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="#" class="text-white mb-3">
+                    <i class="fab fa-youtube fa-2x"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Begin page content -->
+        <main class="flex-fill">
+            <div class="container">
+                <div class="row mt-4 ms-4 ms-md-0">
+                    <div class="col-12 col-md-7 mt-0 mt-md-5 pt-0 pt-md-5">
+                        <h1 class="fs-10 fw-bold text-uppercase">
+                            Explore dream destination
+                        </h1>
+                        <p class="lead">
+                            A personalized Travel Recommendation App that helps
+                            users discover dream destinations based on their
+                            preferences, budget, and travel style. Get tailored
+                            recommendations, curated itineraries, and local
+                            insights, all in one place. Plan, save, and book
+                            with ease for unforgettable travel experiences!
+                        </p>
+                        <a href="#" class="btn btn-secondary">Book now</a>
+                    </div>
+
+                    <div
+                        id="block-recommendations"
+                        class="col-12 col-md-5"
+                    ></div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer py-3 bg-dark">
+            <div class="container fw-semibold text-center">
+                Travel Recommendation @ All rights reserved
+            </div>
+        </footer>
+
+        <script src="https://getbootstrap.com/docs/5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./travel_recommendation.js"></script>
+    </body>
+</html>
